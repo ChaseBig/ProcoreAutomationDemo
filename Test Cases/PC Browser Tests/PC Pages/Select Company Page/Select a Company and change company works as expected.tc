@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select a Company and change company works as expected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1aaf9f9f-e996-4f8d-a53f-fe06b3b978e4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_August 22 2019_img_image__hiJmy img_wid_ddc652</name>
+   <tag></tag>
+   <elementGuidId>7eb796a2-310d-4d0d-80d3-66d575475c07</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pano-view']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>img_image__hiJmy img_wideRatio__-E2s8</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://storage.procore.com/v4/d/us-east-1/prostore-thumbnail-bucket-production/73a391da9e466c93933b93efccfa3abb5270_1838540544_thumbnail_large_production.PNG?sig=a950ee3f0708842d320afcbec76bc41b8790620f1fddabc704f31d417047d305</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>variant</name>
+      <type>Main</type>
+      <value>CENTERED_CROPPED</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;photo-props&quot;)/div[@class=&quot;_1npcp-7_2_5 shared_wrapper__1g_LN&quot;]/div[@class=&quot;tuHQH-7_2_5&quot;]/div[@class=&quot;_1v7oA-7_2_5 _1PmO_-7_2_5 shared_mainContainer__3u_ba&quot;]/div[@class=&quot;ts8vZ-7_2_5&quot;]/div[@class=&quot;shared_list__qzZxf timeline_list__3Oddv&quot;]/div[@class=&quot;timeline_photoGroup__3HEd2&quot;]/div[@class=&quot;timeline_groupPhotos__2_p7Z&quot;]/div[@class=&quot;photoCard_card__3Xvw_&quot;]/div[@class=&quot;photoCard_wrapper__xkP-A&quot;]/a[@class=&quot;photoCard_container__32ysP&quot;]/div[@id=&quot;pano-view&quot;]/img[@class=&quot;img_image__hiJmy img_wideRatio__-E2s8&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pano-view']/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://storage.procore.com/v4/d/us-east-1/prostore-thumbnail-bucket-production/73a391da9e466c93933b93efccfa3abb5270_1838540544_thumbnail_large_production.PNG?sig=a950ee3f0708842d320afcbec76bc41b8790620f1fddabc704f31d417047d305')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+   </webElementXpaths>
+</WebElementEntity>

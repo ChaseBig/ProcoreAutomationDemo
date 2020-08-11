@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>cebd819a-2517-46cb-8ee8-252ca743328a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='markup-header']/div[2]/div[7]/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://assets0.procore.com/building_info/234e6e361ea21cc44b96cd8baa76ef0e/static/media/close.a79f2237.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;markup-header&quot;)/div[@class=&quot;_flex_flex-align-items-flex-start__2nEiY_QHByb _flex_flex-justify-content-flex-start__3cSBC_QHByb _flex_flex-row__1wjK8_QHByb Header_sidebarControls__3X5ml&quot;]/div[@class=&quot;Header_sidebarMenu__3wthc&quot;]/a[@class=&quot;Header_closeButton__3jH8Y&quot;]/div[@class=&quot;_flex_flex-align-items-center__kVvpj_QHByb _flex_flex-justify-content-center__1LRou_QHByb _flex_flex-row__1wjK8_QHByb&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/web ui/Full Test/Page_Drawings  Luna Stadium/iframe_Powered By_fullscreen-iframe</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='markup-header']/div[2]/div[7]/a/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://assets0.procore.com/building_info/234e6e361ea21cc44b96cd8baa76ef0e/static/media/close.a79f2237.svg')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

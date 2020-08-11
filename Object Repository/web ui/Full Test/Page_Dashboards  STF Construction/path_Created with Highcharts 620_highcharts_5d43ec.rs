@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path_Created with Highcharts 620_highcharts_5d43ec</name>
+   <tag></tag>
+   <elementGuidId>88dd047e-73e1-451f-9996-39f18515d108</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>rgb(106,171,230)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M 573.9721986076956 10.000002831199339 A 136.5 136.5 0 1 1 573.8104042384532 10.000131672418064 M 573.8957223311493 71.42507241982993 A 75.075 75.075 0 1 0 573.9847092342326 71.42500155715963 </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>transform</name>
+      <type>Main</type>
+      <value>translate(0,0)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>stroke-linejoin</name>
+      <type>Main</type>
+      <value>round</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>highcharts-point highcharts-color-0 highcharts-point-hover</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;highcharts-8kwrmev-98&quot;)/svg[@class=&quot;highcharts-root&quot;]/g[@class=&quot;highcharts-series-group&quot;]/g[@class=&quot;highcharts-series highcharts-series-0 highcharts-pie-series highcharts-tracker highcharts-series-hover&quot;]/path[@class=&quot;highcharts-point highcharts-color-0 highcharts-point-hover&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

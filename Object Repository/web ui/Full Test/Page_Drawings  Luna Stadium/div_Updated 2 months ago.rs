@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Updated 2 months ago</name>
+   <tag></tag>
+   <elementGuidId>60108941-5810-4d7e-9617-ca3de195953f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mount-drawings-area-card-list']/div/div/div[2]/div/div/div/div[2]/div/div/a/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>style_area-card-detail__1p2i7</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Updated: 2 months ago</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mount-drawings-area-card-list&quot;)/div[@class=&quot;_list_page_l-list-page__2NpYL_QHByb&quot;]/div[@class=&quot;_list_page_l-list-page__main__fV-U3_QHByb&quot;]/div[@class=&quot;_list_page_l-list-page__body__2rEcc_QHByb&quot;]/div[@class=&quot;_list_page_l-list-page__body__content__3jypW_QHByb&quot;]/div[1]/div[@class=&quot;style_flip-card-container__JDkr5 style_area-card__1MuON&quot;]/div[@class=&quot;style_flippable-card__2Yasb&quot;]/div[@class=&quot;style_card-side__-S1Vo style_front__3exwT style_active__2CCOz shadow-target&quot;]/div[@class=&quot;style_show__HJLZY&quot;]/a[@class=&quot;style_area-face__3u3hv&quot;]/div[@class=&quot;style_area-card-info__2ev62&quot;]/div[@class=&quot;style_area-card-detail__1p2i7&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mount-drawings-area-card-list']/div/div/div[2]/div/div/div/div[2]/div/div/a/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is a place for area one. This is where I keep the drawings.'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Area 1'])[1]/following::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Area:'])[1]/preceding::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Updated']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

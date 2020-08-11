@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Licensed_ci ci-chevron-right core-icon co_71e061</name>
+   <tag></tag>
+   <elementGuidId>284ef46c-2a45-4932-9549-e678b526555a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main_panel']/div[2]/div[2]/section[2]/div/div/table/tbody[2]/tr/td/div/div/div/label/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ci ci-chevron-right core-icon core-table__carat </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main_panel&quot;)/div[@class=&quot;tool-body print-shrink-to-fit&quot;]/div[@class=&quot;inner-content&quot;]/section[@class=&quot;no-line&quot;]/div[@class=&quot;core-card core-card--level-30&quot;]/div[@class=&quot;core-table&quot;]/table[@class=&quot;core-table__table account-tools__table&quot;]/tbody[@class=&quot;core-table__body&quot;]/tr[@class=&quot;core-table__group-row&quot;]/td[1]/div[@class=&quot;core-table__group-row__content&quot;]/div[@class=&quot;core-table__group-row__header&quot;]/div[@class=&quot;core-table__carat&quot;]/label[1]/i[@class=&quot;ci ci-chevron-right core-icon core-table__carat&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main_panel']/div[2]/div[2]/section[2]/div/div/table/tbody[2]/tr/td/div/div/div/label/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tbody[2]/tr/td/div/div/div/label/i</value>
+   </webElementXpaths>
+</WebElementEntity>

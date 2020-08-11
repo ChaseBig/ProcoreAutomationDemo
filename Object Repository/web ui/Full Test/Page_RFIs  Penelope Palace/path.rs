@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>5cf10767-1295-49f7-b836-2036db4ff767</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M2.16663 6.83333C2.16663 4.25966 4.25963 2.16666 6.83329 2.16666C9.40696 2.16666 11.5 4.25966 11.5 6.83333C11.5 9.407 9.40696 11.5 6.83329 11.5C4.25963 11.5 2.16663 9.407 2.16663 6.83333ZM15 14.1752L11.3308 10.506C12.1533 9.50033 12.6667 8.23333 12.6667 6.83333C12.6667 3.611 10.0545 1 6.83333 1C3.61217 1 1 3.611 1 6.83333C1 10.0557 3.61217 12.6667 6.83333 12.6667C8.23333 12.6667 9.5015 12.1533 10.506 11.3308L14.1752 15L15 14.1752Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>white</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-bar-search&quot;)/span[@class=&quot;StyledSearchIcon-feKezo eiodco&quot;]/svg[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

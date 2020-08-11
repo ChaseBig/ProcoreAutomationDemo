@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_ArchitecturalTOWER 1_result_result__ima_bbd01b_1</name>
+   <tag></tag>
+   <elementGuidId>68f07bc4-2277-415d-b1ca-fdb493eb1cf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://storage.procore.com/v4/d/us-east-1/prostore-thumbnail-bucket-production/b44620f28e8ec083a6b422bf98216e47f236_1683315521_thumbnail_small_production.PNG?sig=ce8e497ea31573b7214839c499d301bfa8af5b4bf8091af2f74f465dbda709b7')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://storage.procore.com/v4/d/us-east-1/prostore-thumbnail-bucket-production/b44620f28e8ec083a6b422bf98216e47f236_1683315521_thumbnail_small_production.PNG?sig=ce8e497ea31573b7214839c499d301bfa8af5b4bf8091af2f74f465dbda709b7</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>result_result__image__1JbN1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;transmittals-scope&quot;]/div[@class=&quot;_portal_portal__BR8hE_QHByb&quot;]/div[@class=&quot;results-page_results-page__scrim__84JvE results-page_results-page__scrim--fade-in__3fLuK&quot;]/div[1]/div[@class=&quot;_list_page_l-list-page__jY1zk_QHByb results-page_results-page__tg5_V results-page_results-page--full__3wlsw&quot;]/div[@class=&quot;_list_page_l-list-page__main__9kCei_QHByb results-page_results-page__main__2ljwZ results-page_results-page__main--full__1TxH4&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-row__T2BDx_QHByb results-page_results-page__container__171uo&quot;]/div[@class=&quot;_flex_flex-align-items-center__tNXXc_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb results-page_results-page__middle-column___hXVc&quot;]/div[@class=&quot;_flex_flex-align-items-center__tNXXc_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb results-page_results-page__middle-column__max-sizer__2rE6I results-page_results-page__middle-column__max-sizer--full__cmFab&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb results-page_results-page__list__FDlwX results-page_results-page__list--fade-in__10wKE&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-space-between__1HFrs_QHByb _flex_flex-row__T2BDx_QHByb result_result__23GWH&quot;]/div[@class=&quot;_card_card__2ERIw_QHByb _card_card--level-20__3pHru_QHByb result_result__image__container__3mANZ&quot;]/img[@class=&quot;result_result__image__1JbN1&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://storage.procore.com/v4/d/us-east-1/prostore-thumbnail-bucket-production/b44620f28e8ec083a6b422bf98216e47f236_1683315521_thumbnail_small_production.PNG?sig=ce8e497ea31573b7214839c499d301bfa8af5b4bf8091af2f74f465dbda709b7')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/img</value>
+   </webElementXpaths>
+</WebElementEntity>

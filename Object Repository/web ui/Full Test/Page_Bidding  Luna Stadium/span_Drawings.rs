@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Drawings</name>
+   <tag></tag>
+   <elementGuidId>50f69455-e526-478a-98eb-4a67e0c38ad3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Page:'])[1]/following::span[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>result_result__tool__2P_cY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-qa-id</name>
+      <type>Main</type>
+      <value>global-search-results-item-tool</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drawings</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;bid_packages-scope&quot;]/div[@class=&quot;_portal_portal__BR8hE_QHByb&quot;]/div[@class=&quot;results-page_results-page__scrim__84JvE results-page_results-page__scrim--fade-in__3fLuK&quot;]/div[1]/div[@class=&quot;_list_page_l-list-page__jY1zk_QHByb results-page_results-page__tg5_V results-page_results-page--full__3wlsw&quot;]/div[@class=&quot;_list_page_l-list-page__main__9kCei_QHByb results-page_results-page__main__2ljwZ results-page_results-page__main--full__1TxH4&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-row__T2BDx_QHByb results-page_results-page__container__171uo&quot;]/div[@class=&quot;_flex_flex-align-items-center__tNXXc_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb results-page_results-page__middle-column___hXVc&quot;]/div[@class=&quot;_flex_flex-align-items-center__tNXXc_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb results-page_results-page__middle-column__max-sizer__2rE6I results-page_results-page__middle-column__max-sizer--full__cmFab&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb results-page_results-page__list__FDlwX results-page_results-page__list--fade-in__10wKE&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-space-between__1HFrs_QHByb _flex_flex-row__T2BDx_QHByb result_result__23GWH result_result--active__330Up&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb&quot;]/span[@class=&quot;result_result__tool__2P_cY&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Page:'])[1]/following::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sorting By Relevance'])[1]/following::span[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A510 - TYPICAL SECTION DETAILS.2'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Architectural/Area 1'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Drawings']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>

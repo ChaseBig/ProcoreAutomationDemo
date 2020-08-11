@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Send Feedback_ci ci-cog _1FgAl-7_17_0 _a57b2d</name>
+   <tag></tag>
+   <elementGuidId>79561fec-a75d-4e1a-ab16-f4c33212c167</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ci ci-cog _1FgAl-7_17_0 QtZLT-7_17_0 _3TrT9-7_17_0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;_1npcp-7_17_0&quot;]/div[@class=&quot;tuHQH-7_17_0 style_main__3MBG1&quot;]/div[@class=&quot;giIRR-7_17_0 style_listHeader__2ZNyB&quot;]/div[@class=&quot;style_leftSideHeader__1MNbN&quot;]/div[@class=&quot;_1AlyO-7_17_0&quot;]/span[@class=&quot;ci ci-cog _1FgAl-7_17_0 QtZLT-7_17_0 _3TrT9-7_17_0&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/span</value>
+   </webElementXpaths>
+</WebElementEntity>
