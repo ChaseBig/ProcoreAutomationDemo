@@ -15,6 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('PC Browser Tests/PC Tests/Web Login Tests/Invalid username and password should return login error message'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -23,6 +26,8 @@ WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Select Company Page/T
 
 WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected'), 
     [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Portfolio Page/Portfolio Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Basic Logged-In Functionality/Basic Logged In Functionality'), 
     [:], FailureHandling.STOP_ON_FAILURE)
