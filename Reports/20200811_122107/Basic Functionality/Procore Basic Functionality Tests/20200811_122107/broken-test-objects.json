@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Full Test/Page_Transmittals  Luna Stadium/span___icon_icon__3YyB__QHByb results-page__711905",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027×\u0027])[1]/following::span[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Filters\u0027])[1]/preceding::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200811_122107/Basic Functionality/Procore Basic Functionality Tests/20200811_122107/Object Repository/Full Test/Page_Transmittals  Luna Stadium/span___icon_icon__3YyB__QHByb results-page__711905_neighbor.png"
+    }
+  ]
+}

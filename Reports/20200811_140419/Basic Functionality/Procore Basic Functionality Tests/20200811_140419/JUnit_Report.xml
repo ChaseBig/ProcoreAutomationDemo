@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Procore Basic Functionality Tests" time="284.236" tests="1" failures="0" errors="0">
+   <testsuite name="Procore Basic Functionality Tests" tests="1" failures="0" errors="0" time="284.236" timestamp="2020-08-11 14:04:23" hostname="csmall - csmall-mbp" id="Test Suites/Basic Functionality/Procore Basic Functionality Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/csmall/Procore_AutomationDemo_POC/ProcoreAutomationDemo/Reports/20200811_140419/Basic Functionality/Procore Basic Functionality Tests/20200811_140419"/>
+         <property name="logFiles" value="/Users/csmall/Procore_AutomationDemo_POC/ProcoreAutomationDemo/Reports/20200811_140419/Basic Functionality/Procore Basic Functionality Tests/20200811_140419/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="csmall - csmall-mbp"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.2.205"/>
+         <property name="browser" value="Chrome 84.0.4147.125"/>
+         <property name="hostAddress" value="192.168.1.45"/>
+         <property name="sessionId" value="f6a87517e96e8865bb4ccb9f5a22f0b4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Basic Logged-In Functionality Tests" time="284.065" classname="Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Basic Logged-In Functionality Tests" status="PASSED">
+         <system-out><![CDATA[2020-08-11 14:04:24 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Basic Logged-In Functionality Tests: Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Basic Logged-In Functionality Tests
+
+2020-08-11 14:04:24 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: null
+
+2020-08-11 14:04:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password' successfully
+
+2020-08-11 14:04:24 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password: Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password
+
+2020-08-11 14:04:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-11 14:04:24 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully: Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully
+
+2020-08-11 14:04:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-11 14:04:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-11 14:04:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-11 14:04:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-11 14:04:26 - [TEST_STEP][PASSED] - navigateToUrl("https://login.procore.com/"): Navigate to 'https://login.procore.com/' successfully
+
+2020-08-11 14:04:37 - [MESSAGE][PASSED] - Navigate to 'https://login.procore.com/' successfully
+
+2020-08-11 14:04:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-11 14:04:38 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-11 14:04:38 - [TEST_STEP][PASSED] - verifyTextPresent("Log in to your account", false): Text 'Log in to your account' is present on page 
+
+2020-08-11 14:04:38 - [MESSAGE][PASSED] - Text 'Log in to your account' is present on page 
+
+2020-08-11 14:04:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-11 14:04:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password"), ["username":username, "encryptedPassword":encrypted_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password' successfully
+
+2020-08-11 14:04:39 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password: Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password
+
+2020-08-11 14:04:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail"), "admin@procore.com"): Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-11 14:04:40 - [MESSAGE][PASSED] - Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-11 14:04:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword"), encryptedPassword): Text ****** has been set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-11 14:04:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-11 14:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In")): Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-11 14:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-11 14:04:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password' successfully
+
+2020-08-11 14:04:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-11 14:04:44 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully: Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully
+
+2020-08-11 14:04:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-11 14:04:44 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-11 14:04:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu")): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-11 14:04:45 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-11 14:04:45 - [TEST_STEP][PASSED] - verifyTextPresent("Select a company", false): Text 'Select a company' is present on page 
+
+2020-08-11 14:04:45 - [MESSAGE][PASSED] - Text 'Select a company' is present on page 
+
+2020-08-11 14:04:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-11 14:04:45 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-11 14:04:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:46 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-11 14:04:46 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-11 14:04:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-11 14:04:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password' successfully
+
+2020-08-11 14:04:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-11 14:04:47 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully: Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully
+
+2020-08-11 14:04:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-11 14:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-11 14:04:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu")): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-11 14:04:48 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-11 14:04:48 - [TEST_STEP][PASSED] - verifyTextPresent("Select a company", false): Text 'Select a company' is present on page 
+
+2020-08-11 14:04:48 - [MESSAGE][PASSED] - Text 'Select a company' is present on page 
+
+2020-08-11 14:04:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-11 14:04:49 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-11 14:04:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:49 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-11 14:04:49 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-11 14:04:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-11 14:04:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-11 14:04:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected' successfully
+
+2020-08-11 14:04:50 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected: Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected
+
+2020-08-11 14:04:50 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Procore Log In/span_STF Construction")): Object: 'Object Repository/web ui/Full Test/Page_Procore Log In/span_STF Construction' is clicked on
+
+2020-08-11 14:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Procore Log In/span_STF Construction' is clicked on
+
+2020-08-11 14:04:56 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl' is clicked on
+
+2020-08-11 14:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl' is clicked on
+
+2020-08-11 14:04:58 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  STF Construction/svg_Select a Project_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/svg_Select a Project_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/svg_Select a Project_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:04:59 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  STF Construction/a_Change")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_Change' is clicked on
+
+2020-08-11 14:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_Change' is clicked on
+
+2020-08-11 14:05:01 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account' is clicked on
+
+2020-08-11 14:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account' is clicked on
+
+2020-08-11 14:05:08 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio' is clicked on
+
+2020-08-11 14:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio' is clicked on
+
+2020-08-11 14:05:08 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio' is clicked on
+
+2020-08-11 14:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio' is clicked on
+
+2020-08-11 14:05:09 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project' is clicked on
+
+2020-08-11 14:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project' is clicked on
+
+2020-08-11 14:05:12 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change' is clicked on
+
+2020-08-11 14:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change' is clicked on
+
+2020-08-11 14:05:13 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction' is clicked on
+
+2020-08-11 14:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction' is clicked on
+
+2020-08-11 14:05:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected' successfully
+
+2020-08-11 14:05:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Basic Logged-In Functionality/Basic Logged In Functionality"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Basic Logged-In Functionality/Basic Logged In Functionality' successfully
+
+2020-08-11 14:05:17 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Basic Logged-In Functionality/Basic Logged In Functionality: Test Cases/PC Browser Tests/PC Pages/Basic Logged-In Functionality/Basic Logged In Functionality
+
+2020-08-11 14:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/div_Executive Dashboard")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/div_Executive Dashboard' is clicked on
+
+2020-08-11 14:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/div_Executive Dashboard' is clicked on
+
+2020-08-11 14:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Dashboards  STF Construction/span_Add Filter_rw-select rw-btn")): Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/span_Add Filter_rw-select rw-btn' is clicked on
+
+2020-08-11 14:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/span_Add Filter_rw-select rw-btn' is clicked on
+
+2020-08-11 14:05:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Dashboards  STF Construction/span_Project Number")): Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/span_Project Number' is clicked on
+
+2020-08-11 14:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/span_Project Number' is clicked on
+
+2020-08-11 14:05:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Dashboards  STF Construction/input_(Blank)_filter-checkbox-input")): Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/input_(Blank)_filter-checkbox-input' is clicked on
+
+2020-08-11 14:05:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/input_(Blank)_filter-checkbox-input' is clicked on
+
+2020-08-11 14:05:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Dashboards  STF Construction/div_Add Filteropen dropdownProject Number00_b88477")): Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/div_Add Filteropen dropdownProject Number00_b88477' is clicked on
+
+2020-08-11 14:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/div_Add Filteropen dropdownProject Number00_b88477' is clicked on
+
+2020-08-11 14:05:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Dashboards  STF Construction/svg_Reports_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/svg_Reports_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/svg_Reports_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:05:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Dashboards  STF Construction/a_Concierge")): Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/a_Concierge' is clicked on
+
+2020-08-11 14:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Dashboards  STF Construction/a_Concierge' is clicked on
+
+2020-08-11 14:05:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/div_My Open Items")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/div_My Open Items' is clicked on
+
+2020-08-11 14:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/div_My Open Items' is clicked on
+
+2020-08-11 14:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/i_Financial Views_fa fa-caret-down")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/i_Financial Views_fa fa-caret-down' is clicked on
+
+2020-08-11 14:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/i_Financial Views_fa fa-caret-down' is clicked on
+
+2020-08-11 14:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/a_Budget Variance")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Budget Variance' is clicked on
+
+2020-08-11 14:05:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Budget Variance' is clicked on
+
+2020-08-11 14:05:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/svg_Portfolio_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/svg_Portfolio_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:05:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/svg_Portfolio_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/a_Portfolio")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Portfolio' is clicked on
+
+2020-08-11 14:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Portfolio' is clicked on
+
+2020-08-11 14:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/svg_Portfolio_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/svg_Portfolio_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/svg_Portfolio_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/a_Directory")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Directory' is clicked on
+
+2020-08-11 14:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Directory' is clicked on
+
+2020-08-11 14:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Directory  STF Construction/div_Contacts")): Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Contacts' is clicked on
+
+2020-08-11 14:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Contacts' is clicked on
+
+2020-08-11 14:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Directory  STF Construction/div_Companies")): Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Companies' is clicked on
+
+2020-08-11 14:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Companies' is clicked on
+
+2020-08-11 14:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Directory  STF Construction/div_Distribution Groups")): Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Distribution Groups' is clicked on
+
+2020-08-11 14:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Distribution Groups' is clicked on
+
+2020-08-11 14:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Directory  STF Construction/div_Inactive Users")): Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Inactive Users' is clicked on
+
+2020-08-11 14:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Directory  STF Construction/div_Inactive Users' is clicked on
+
+2020-08-11 14:06:15 - [TEST_STEP][PASSED] - click(findTestObject("Full Test/Page_Directory  STF Construction/svg_Directory_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Directory  STF Construction/svg_Directory_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Directory  STF Construction/svg_Directory_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Directory  STF Construction/a_Reports")): Object: 'Object Repository/Full Test/Page_Directory  STF Construction/a_Reports' is clicked on
+
+2020-08-11 14:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Directory  STF Construction/a_Reports' is clicked on
+
+2020-08-11 14:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Reports  STF Construction/p_Projects Overview")): Object: 'Object Repository/Full Test/Page_Reports  STF Construction/p_Projects Overview' is clicked on
+
+2020-08-11 14:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Reports  STF Construction/p_Projects Overview' is clicked on
+
+2020-08-11 14:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Reports  STF Construction/a_Click Here To View The Luna Stadium Reports")): Object: 'Object Repository/Full Test/Page_Reports  STF Construction/a_Click Here To View The Luna Stadium Reports' is clicked on
+
+2020-08-11 14:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Reports  STF Construction/a_Click Here To View The Luna Stadium Reports' is clicked on
+
+2020-08-11 14:06:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Reports  Luna Stadium/span_Dashboards")): Object: 'Object Repository/Full Test/Page_Reports  Luna Stadium/span_Dashboards' is clicked on
+
+2020-08-11 14:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Reports  Luna Stadium/span_Dashboards' is clicked on
+
+2020-08-11 14:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Reports  Luna Stadium/svg_Reports_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Reports  Luna Stadium/svg_Reports_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Reports  Luna Stadium/svg_Reports_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:06:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Reports  Luna Stadium/a_Tasks")): Object: 'Object Repository/Full Test/Page_Reports  Luna Stadium/a_Tasks' is clicked on
+
+2020-08-11 14:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Reports  Luna Stadium/a_Tasks' is clicked on
+
+2020-08-11 14:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Tasks  Luna Stadium/div_Project ToolsTasks")): Object: 'Object Repository/Full Test/Page_Tasks  Luna Stadium/div_Project ToolsTasks' is clicked on
+
+2020-08-11 14:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Tasks  Luna Stadium/div_Project ToolsTasks' is clicked on
+
+2020-08-11 14:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Tasks  Luna Stadium/a_Correspondence")): Object: 'Object Repository/Full Test/Page_Tasks  Luna Stadium/a_Correspondence' is clicked on
+
+2020-08-11 14:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Tasks  Luna Stadium/a_Correspondence' is clicked on
+
+2020-08-11 14:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Correspondence  Luna Stadium/div_Project ToolsCorrespondence")): Object: 'Object Repository/Full Test/Page_Correspondence  Luna Stadium/div_Project ToolsCorrespondence' is clicked on
+
+2020-08-11 14:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Correspondence  Luna Stadium/div_Project ToolsCorrespondence' is clicked on
+
+2020-08-11 14:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Correspondence  Luna Stadium/svg_Correspondence_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Correspondence  Luna Stadium/svg_Correspondence_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Correspondence  Luna Stadium/svg_Correspondence_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Extension of Time  Luna Stadium/a_Transmittals")): Object: 'Object Repository/Full Test/Page_Extension of Time  Luna Stadium/a_Transmittals' is clicked on
+
+2020-08-11 14:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Extension of Time  Luna Stadium/a_Transmittals' is clicked on
+
+2020-08-11 14:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Testing Transmittals")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Testing Transmittals' is clicked on
+
+2020-08-11 14:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Testing Transmittals' is clicked on
+
+2020-08-11 14:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Related Items (0)")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Related Items (0)' is clicked on
+
+2020-08-11 14:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Related Items (0)' is clicked on
+
+2020-08-11 14:06:53 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Extension of Time  Luna Stadium/svg")): Object: 'Object Repository/web ui/Full Test/Page_Extension of Time  Luna Stadium/svg' is clicked on
+
+2020-08-11 14:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Extension of Time  Luna Stadium/svg' is clicked on
+
+2020-08-11 14:06:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/web ui/Full Test/Page_Extension of Time  Luna Stadium/input___input_input__2nVpu_QHByb search-bar_82ecf1"), "curtain"): Text 'curtain' is set on object 'Object Repository/web ui/Full Test/Page_Extension of Time  Luna Stadium/input___input_input__2nVpu_QHByb search-bar_82ecf1'
+
+2020-08-11 14:06:55 - [MESSAGE][PASSED] - Text 'curtain' is set on object 'Object Repository/web ui/Full Test/Page_Extension of Time  Luna Stadium/input___input_input__2nVpu_QHByb search-bar_82ecf1'
+
+2020-08-11 14:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Full Test/Page_Home  Luna Stadium/button_View all results")): Object: 'Object Repository/Full Test/Page_Home  Luna Stadium/button_View all results' is clicked on
+
+2020-08-11 14:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Home  Luna Stadium/button_View all results' is clicked on
+
+2020-08-11 14:06:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_General Information_preview-pane_previe_5b3cb6")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_General Information_preview-pane_previe_5b3cb6' is clicked on
+
+2020-08-11 14:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_General Information_preview-pane_previe_5b3cb6' is clicked on
+
+2020-08-11 14:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_ArchitecturalTOWER 1_result_result__ima_bbd01b")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_ArchitecturalTOWER 1_result_result__ima_bbd01b' is clicked on
+
+2020-08-11 14:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_ArchitecturalTOWER 1_result_result__ima_bbd01b' is clicked on
+
+2020-08-11 14:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/span_Drawings (4)")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/span_Drawings (4)' is clicked on
+
+2020-08-11 14:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/span_Drawings (4)' is clicked on
+
+2020-08-11 14:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_ArchitecturalTOWER 1_result_result__ima_bbd01b_1")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_ArchitecturalTOWER 1_result_result__ima_bbd01b_1' is clicked on
+
+2020-08-11 14:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/img_ArchitecturalTOWER 1_result_result__ima_bbd01b_1' is clicked on
+
+2020-08-11 14:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Full Test/Page_Transmittals  Luna Stadium/span___icon_icon__3YyB__QHByb results-page__711905")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/span___icon_icon__3YyB__QHByb results-page__711905' is clicked on
+
+2020-08-11 14:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/span___icon_icon__3YyB__QHByb results-page__711905' is clicked on
+
+2020-08-11 14:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/div_Project ToolsTransmittals")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/div_Project ToolsTransmittals' is clicked on
+
+2020-08-11 14:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/div_Project ToolsTransmittals' is clicked on
+
+2020-08-11 14:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Forms")): Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Forms' is clicked on
+
+2020-08-11 14:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Transmittals  Luna Stadium/a_Forms' is clicked on
+
+2020-08-11 14:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Forms  Luna Stadium/div_Forms_Popover_menuCaret__2JQuX")): Object: 'Object Repository/Full Test/Page_Forms  Luna Stadium/div_Forms_Popover_menuCaret__2JQuX' is clicked on
+
+2020-08-11 14:07:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Forms  Luna Stadium/div_Forms_Popover_menuCaret__2JQuX' is clicked on
+
+2020-08-11 14:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Forms  Luna Stadium/a_Incidents")): Object: 'Object Repository/Full Test/Page_Forms  Luna Stadium/a_Incidents' is clicked on
+
+2020-08-11 14:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Forms  Luna Stadium/a_Incidents' is clicked on
+
+2020-08-11 14:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Incidents  Luna Stadium/span_Records")): Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/span_Records' is clicked on
+
+2020-08-11 14:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/span_Records' is clicked on
+
+2020-08-11 14:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Incidents  Luna Stadium/a_new record")): Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/a_new record' is clicked on
+
+2020-08-11 14:07:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/a_new record' is clicked on
+
+2020-08-11 14:07:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Incidents  Luna Stadium/svg_Incidents_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/svg_Incidents_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/svg_Incidents_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-11 14:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Incidents  Luna Stadium/a_Timesheets")): Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/a_Timesheets' is clicked on
+
+2020-08-11 14:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Incidents  Luna Stadium/a_Timesheets' is clicked on
+
+2020-08-11 14:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Timesheets  Luna Stadium/span_Send Feedback_ci ci-cog _1FgAl-7_17_0 _a57b2d")): Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/span_Send Feedback_ci ci-cog _1FgAl-7_17_0 _a57b2d' is clicked on
+
+2020-08-11 14:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/span_Send Feedback_ci ci-cog _1FgAl-7_17_0 _a57b2d' is clicked on
+
+2020-08-11 14:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Timesheets  Luna Stadium/span_Classifications")): Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/span_Classifications' is clicked on
+
+2020-08-11 14:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/span_Classifications' is clicked on
+
+2020-08-11 14:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Timesheets  Luna Stadium/div_Update")): Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/div_Update' is clicked on
+
+2020-08-11 14:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/div_Update' is clicked on
+
+2020-08-11 14:07:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Timesheets  Luna Stadium/div_Project ToolsTimesheets")): Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/div_Project ToolsTimesheets' is clicked on
+
+2020-08-11 14:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/div_Project ToolsTimesheets' is clicked on
+
+2020-08-11 14:07:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Timesheets  Luna Stadium/a_Direct Costs")): Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/a_Direct Costs' is clicked on
+
+2020-08-11 14:07:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Timesheets  Luna Stadium/a_Direct Costs' is clicked on
+
+2020-08-11 14:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Direct Costs  Luna Stadium/a_Summary By Cost Code")): Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/a_Summary By Cost Code' is clicked on
+
+2020-08-11 14:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/a_Summary By Cost Code' is clicked on
+
+2020-08-11 14:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Direct Costs  Luna Stadium/span_Help__icon_icon__3YyB_")): Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/span_Help__icon_icon__3YyB_' is clicked on
+
+2020-08-11 14:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/span_Help__icon_icon__3YyB_' is clicked on
+
+2020-08-11 14:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Direct Costs  Luna Stadium/div_Project ToolsDirect Costs")): Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/div_Project ToolsDirect Costs' is clicked on
+
+2020-08-11 14:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/div_Project ToolsDirect Costs' is clicked on
+
+2020-08-11 14:08:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Direct Costs  Luna Stadium/a_Bidding")): Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/a_Bidding' is clicked on
+
+2020-08-11 14:08:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Direct Costs  Luna Stadium/a_Bidding' is clicked on
+
+2020-08-11 14:08:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Bidding  Luna Stadium/a_Package one")): Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/a_Package one' is clicked on
+
+2020-08-11 14:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/a_Package one' is clicked on
+
+2020-08-11 14:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Bidding  Luna Stadium/span_Correspondence                  (0)")): Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/span_Correspondence                  (0)' is clicked on
+
+2020-08-11 14:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/span_Correspondence                  (0)' is clicked on
+
+2020-08-11 14:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Bidding  Luna Stadium/span_Select an App__icon_icon__3YyB__QHByb _7b289a")): Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/span_Select an App__icon_icon__3YyB__QHByb _7b289a' is clicked on
+
+2020-08-11 14:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/span_Select an App__icon_icon__3YyB__QHByb _7b289a' is clicked on
+
+2020-08-11 14:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Bidding  Luna Stadium/div_SA")): Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/div_SA' is clicked on
+
+2020-08-11 14:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/div_SA' is clicked on
+
+2020-08-11 14:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Bidding  Luna Stadium/a_Account  Admin Settings")): Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/a_Account  Admin Settings' is clicked on
+
+2020-08-11 14:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Bidding  Luna Stadium/a_Account  Admin Settings' is clicked on
+
+2020-08-11 14:08:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Account Information  STF Construction/div_Minimize Sidebar")): Object: 'Object Repository/Full Test/Page_Account Information  STF Construction/div_Minimize Sidebar' is clicked on
+
+2020-08-11 14:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Account Information  STF Construction/div_Minimize Sidebar' is clicked on
+
+2020-08-11 14:08:58 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Account Information  STF Construction/a_Licensed_sidebar-collapse-bar sidebar-toggle")): Object: 'Object Repository/web ui/Full Test/Page_Account Information  STF Construction/a_Licensed_sidebar-collapse-bar sidebar-toggle' is clicked on
+
+2020-08-11 14:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Account Information  STF Construction/a_Licensed_sidebar-collapse-bar sidebar-toggle' is clicked on
+
+2020-08-11 14:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Account Information  STF Construction/span_Classifications")): Object: 'Object Repository/Full Test/Page_Account Information  STF Construction/span_Classifications' is clicked on
+
+2020-08-11 14:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Account Information  STF Construction/span_Classifications' is clicked on
+
+2020-08-11 14:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Work Classifications  STF Construction/span_Webhooks")): Object: 'Object Repository/Full Test/Page_Work Classifications  STF Construction/span_Webhooks' is clicked on
+
+2020-08-11 14:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Work Classifications  STF Construction/span_Webhooks' is clicked on
+
+2020-08-11 14:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/div_SA")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/div_SA' is clicked on
+
+2020-08-11 14:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/div_SA' is clicked on
+
+2020-08-11 14:09:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Full Test/Page_Portfolio  STF Construction/a_Log Out")): Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Log Out' is clicked on
+
+2020-08-11 14:09:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Full Test/Page_Portfolio  STF Construction/a_Log Out' is clicked on
+
+2020-08-11 14:09:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-11 14:09:08 - [MESSAGE][PASSED] - Browser is closed
+
+2020-08-11 14:09:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Basic Logged-In Functionality/Basic Logged In Functionality' successfully
+
+2020-08-11 14:09:08 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2020-08-11 14:09:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-11 14:09:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-11 14:04:23 - [TEST_SUITE][PASSED] - Procore Basic Functionality Tests: Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Basic Logged-In Functionality Tests]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

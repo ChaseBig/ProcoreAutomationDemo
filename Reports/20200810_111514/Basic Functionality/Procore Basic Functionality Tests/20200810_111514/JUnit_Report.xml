@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Procore Basic Functionality Tests" time="83.905" tests="3" failures="0" errors="0">
+   <testsuite name="Procore Basic Functionality Tests" tests="3" failures="0" errors="0" time="83.905" timestamp="2020-08-10 11:15:19" hostname="csmall - csmall-mbp" id="Test Suites/Basic Functionality/Procore Basic Functionality Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/csmall/Katalon Studio/PC_BDD_WebAutomation_Demo_MASTER/Reports/20200810_111514/Basic Functionality/Procore Basic Functionality Tests/20200810_111514"/>
+         <property name="logFiles" value="/Users/csmall/Katalon Studio/PC_BDD_WebAutomation_Demo_MASTER/Reports/20200810_111514/Basic Functionality/Procore Basic Functionality Tests/20200810_111514/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="csmall - csmall-mbp"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.5.10.1"/>
+         <property name="browser" value="Chrome 84.0.4147.105"/>
+         <property name="hostAddress" value="192.168.1.45"/>
+         <property name="sessionId" value="1af075533f97d33e046b9c4523c8ddc7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/PC Browser Tests/PC Tests/Web Login Tests/Invalid username and password should return login error message" time="21.244" classname="Test Cases/PC Browser Tests/PC Tests/Web Login Tests/Invalid username and password should return login error message" status="PASSED">
+         <system-out><![CDATA[2020-08-10 11:15:19 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Tests/Web Login Tests/Invalid username and password should return login error message: Test Cases/PC Browser Tests/PC Tests/Web Login Tests/Invalid username and password should return login error message
+
+2020-08-10 11:15:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: null
+
+2020-08-10 11:15:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-10 11:15:19 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully: Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully
+
+2020-08-10 11:15:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-10 11:15:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-10 11:15:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-10 11:15:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-10 11:15:21 - [TEST_STEP][PASSED] - navigateToUrl("https://login.procore.com/"): Navigate to 'https://login.procore.com/' successfully
+
+2020-08-10 11:15:26 - [MESSAGE][PASSED] - Navigate to 'https://login.procore.com/' successfully
+
+2020-08-10 11:15:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-10 11:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-10 11:15:27 - [TEST_STEP][PASSED] - verifyTextPresent("Log in to your account", false): Text 'Log in to your account' is present on page 
+
+2020-08-10 11:15:27 - [MESSAGE][PASSED] - Text 'Log in to your account' is present on page 
+
+2020-08-10 11:15:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-10 11:15:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login with invalid username and password"), ["username":"fake@fakepro.com", "password":"fakefakefake123"], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with invalid username and password' successfully
+
+2020-08-10 11:15:27 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login with invalid username and password: Test Cases/PC Browser Tests/PC Pages/Web Login/Login with invalid username and password
+
+2020-08-10 11:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/input_Email_sessionemail"), "fake@prokore.com"): Text 'fake@prokore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:15:28 - [MESSAGE][PASSED] - Text 'fake@prokore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:15:28 - [TEST_STEP][PASSED] - setText(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/input_Password_sessionpassword"), "fakepassword"): Text 'fakepassword' is set on object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:15:29 - [MESSAGE][PASSED] - Text 'fakepassword' is set on object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:15:29 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/button_Log In")): Object: 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:15:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' is present
+
+2020-08-10 11:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' is present
+
+2020-08-10 11:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail"), "admin@procore.com"): Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:15:33 - [MESSAGE][PASSED] - Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword"), "fakePassworddd"): Text 'fakePassworddd' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:15:34 - [MESSAGE][PASSED] - Text 'fakePassworddd' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:15:34 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In")): Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:15:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' is present
+
+2020-08-10 11:15:39 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' is present
+
+2020-08-10 11:15:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with invalid username and password' successfully
+
+2020-08-10 11:15:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Verify login credential error message present"), ["error_message":"The email address or password you entered is not valid."], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Verify login credential error message present' successfully
+
+2020-08-10 11:15:39 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Verify login credential error message present: Test Cases/PC Browser Tests/PC Pages/Web Login/Verify login credential error message present
+
+2020-08-10 11:15:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' is visible
+
+2020-08-10 11:15:39 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' is visible
+
+2020-08-10 11:15:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea"), error_message): Actual text and expected text of test object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' are matched.
+
+2020-08-10 11:15:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/div_The email address or password you enter_2484ea' are matched.
+
+2020-08-10 11:15:40 - [TEST_STEP][PASSED] - verifyTextPresent("The email address or password you entered is not valid.", false): Text 'The email address or password you entered is not valid.' is present on page 
+
+2020-08-10 11:15:40 - [MESSAGE][PASSED] - Text 'The email address or password you entered is not valid.' is present on page 
+
+2020-08-10 11:15:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Verify login credential error message present' successfully
+
+2020-08-10 11:15:40 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2020-08-10 11:15:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-10 11:15:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password" time="16.884" classname="Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password" status="PASSED">
+         <system-out><![CDATA[2020-08-10 11:15:40 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password: Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password
+
+2020-08-10 11:15:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: null
+
+2020-08-10 11:15:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-10 11:15:40 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully: Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully
+
+2020-08-10 11:15:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-10 11:15:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-10 11:15:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-10 11:15:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-10 11:15:41 - [TEST_STEP][PASSED] - navigateToUrl("https://login.procore.com/"): Navigate to 'https://login.procore.com/' successfully
+
+2020-08-10 11:15:47 - [MESSAGE][PASSED] - Navigate to 'https://login.procore.com/' successfully
+
+2020-08-10 11:15:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-10 11:15:48 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-10 11:15:48 - [TEST_STEP][PASSED] - verifyTextPresent("Log in to your account", false): Text 'Log in to your account' is present on page 
+
+2020-08-10 11:15:49 - [MESSAGE][PASSED] - Text 'Log in to your account' is present on page 
+
+2020-08-10 11:15:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-10 11:15:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password"), ["username":username, "encryptedPassword":encrypted_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password' successfully
+
+2020-08-10 11:15:49 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password: Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password
+
+2020-08-10 11:15:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail"), "admin@procore.com"): Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:15:50 - [MESSAGE][PASSED] - Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:15:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword"), encryptedPassword): Text ****** has been set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:15:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In")): Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:15:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password' successfully
+
+2020-08-10 11:15:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-10 11:15:54 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully: Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully
+
+2020-08-10 11:15:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-10 11:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-10 11:15:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu")): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-10 11:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-10 11:15:55 - [TEST_STEP][PASSED] - verifyTextPresent("Select a company", false): Text 'Select a company' is present on page 
+
+2020-08-10 11:15:55 - [MESSAGE][PASSED] - Text 'Select a company' is present on page 
+
+2020-08-10 11:15:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-10 11:15:56 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-10 11:15:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:15:56 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:15:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-10 11:15:56 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-10 11:15:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:15:57 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:15:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-10 11:15:57 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2020-08-10 11:15:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-10 11:15:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Company Selector Page Works" time="45.589" classname="Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Company Selector Page Works" status="PASSED">
+         <system-out><![CDATA[2020-08-10 11:15:57 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Company Selector Page Works: Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Company Selector Page Works
+
+2020-08-10 11:15:57 - [TEST_STEP][PASSED] - Start listener action : beforeTestcase: null
+
+2020-08-10 11:15:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password' successfully
+
+2020-08-10 11:15:57 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password: Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password
+
+2020-08-10 11:15:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-10 11:15:57 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully: Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully
+
+2020-08-10 11:15:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-08-10 11:15:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-08-10 11:15:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-08-10 11:15:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-08-10 11:15:58 - [TEST_STEP][PASSED] - navigateToUrl("https://login.procore.com/"): Navigate to 'https://login.procore.com/' successfully
+
+2020-08-10 11:16:06 - [MESSAGE][PASSED] - Navigate to 'https://login.procore.com/' successfully
+
+2020-08-10 11:16:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-10 11:16:07 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/h1_Log in to your account' is visible
+
+2020-08-10 11:16:07 - [TEST_STEP][PASSED] - verifyTextPresent("Log in to your account", false): Text 'Log in to your account' is present on page 
+
+2020-08-10 11:16:07 - [MESSAGE][PASSED] - Text 'Log in to your account' is present on page 
+
+2020-08-10 11:16:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully' successfully
+
+2020-08-10 11:16:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password"), ["username":username, "encryptedPassword":encrypted_password], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password' successfully
+
+2020-08-10 11:16:07 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password: Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password
+
+2020-08-10 11:16:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail"), "admin@procore.com"): Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:16:08 - [MESSAGE][PASSED] - Text 'admin@procore.com' is set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Email_sessionemail'
+
+2020-08-10 11:16:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword"), encryptedPassword): Text ****** has been set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:16:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/input_Password_sessionpassword'
+
+2020-08-10 11:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In")): Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Test Objects/Pages/Login Page/Page_Procore Log In/button_Log In' is clicked on
+
+2020-08-10 11:16:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password' successfully
+
+2020-08-10 11:16:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-10 11:16:13 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully: Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully
+
+2020-08-10 11:16:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-10 11:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-10 11:16:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu")): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-10 11:16:14 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-10 11:16:14 - [TEST_STEP][PASSED] - verifyTextPresent("Select a company", false): Text 'Select a company' is present on page 
+
+2020-08-10 11:16:15 - [MESSAGE][PASSED] - Text 'Select a company' is present on page 
+
+2020-08-10 11:16:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-10 11:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-10 11:16:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:16 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-10 11:16:16 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-10 11:16:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:16 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-10 11:16:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password' successfully
+
+2020-08-10 11:16:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-10 11:16:16 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully: Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully
+
+2020-08-10 11:16:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-10 11:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/h1_Select a company' is visible
+
+2020-08-10 11:16:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu")): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-10 11:16:17 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/img_Select a company_sc-fznZeY gJlwEu' is visible
+
+2020-08-10 11:16:17 - [TEST_STEP][PASSED] - verifyTextPresent("Select a company", false): Text 'Select a company' is present on page 
+
+2020-08-10 11:16:18 - [MESSAGE][PASSED] - Text 'Select a company' is present on page 
+
+2020-08-10 11:16:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-10 11:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Select a companyAdriana Mobile Test Com_4023ef' is present
+
+2020-08-10 11:16:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Test Objects/Pages/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-10 11:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/input_Everyone do your best work and get pa_5c9792' is present
+
+2020-08-10 11:16:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3"), element_timeout): Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3' is present
+
+2020-08-10 11:16:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully' successfully
+
+2020-08-10 11:16:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected' successfully
+
+2020-08-10 11:16:19 - [TEST_CASE][PASSED] - Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected: Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected
+
+2020-08-10 11:16:19 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Procore Log In/span_STF Construction")): Object: 'Object Repository/web ui/Full Test/Page_Procore Log In/span_STF Construction' is clicked on
+
+2020-08-10 11:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Procore Log In/span_STF Construction' is clicked on
+
+2020-08-10 11:16:26 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl' is clicked on
+
+2020-08-10 11:16:28 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl' is clicked on
+
+2020-08-10 11:16:28 - [TEST_STEP][PASSED] - click(findTestObject("web ui/Full Test/Page_Portfolio  STF Construction/svg_Select a Project_CaretSVG-bHHlHZ ihpZOM")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/svg_Select a Project_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-10 11:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/svg_Select a Project_CaretSVG-bHHlHZ ihpZOM' is clicked on
+
+2020-08-10 11:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_Change")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_Change' is clicked on
+
+2020-08-10 11:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/a_Change' is clicked on
+
+2020-08-10 11:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account' is clicked on
+
+2020-08-10 11:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account' is clicked on
+
+2020-08-10 11:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio' is clicked on
+
+2020-08-10 11:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio' is clicked on
+
+2020-08-10 11:16:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio' is clicked on
+
+2020-08-10 11:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio' is clicked on
+
+2020-08-10 11:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project' is clicked on
+
+2020-08-10 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project' is clicked on
+
+2020-08-10 11:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change' is clicked on
+
+2020-08-10 11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change' is clicked on
+
+2020-08-10 11:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction")): Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction' is clicked on
+
+2020-08-10 11:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction' is clicked on
+
+2020-08-10 11:16:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected' successfully
+
+2020-08-10 11:16:42 - [TEST_STEP][PASSED] - Start listener action : afterTestcase: Browser is closed
+
+2020-08-10 11:16:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-08-10 11:16:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-10 11:15:19 - [TEST_SUITE][PASSED] - Procore Basic Functionality Tests: Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Company Selector Page Works]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
