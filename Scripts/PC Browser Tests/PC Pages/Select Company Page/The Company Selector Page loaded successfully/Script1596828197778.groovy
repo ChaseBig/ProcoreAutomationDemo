@@ -34,3 +34,5 @@ WebUI.verifyElementPresent(findTestObject('web ui/Full Test/Page_Procore Log In/
 WebUI.verifyElementPresent(findTestObject('web ui/Full Test/Page_Procore Log In/div_Procore Field Productivity             _aa58a3'), 
     GlobalVariable.element_timeout)
 
+WebUI.click(findTestObject('web ui/Full Test/Page_Procore Log In/span_STF Construction'))
+

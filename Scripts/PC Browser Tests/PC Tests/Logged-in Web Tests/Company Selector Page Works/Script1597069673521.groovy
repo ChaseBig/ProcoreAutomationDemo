@@ -21,6 +21,3 @@ WebUI.callTestCase(findTestCase('PC Browser Tests/PC Tests/Web Login Tests/User 
 WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully'), 
     [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Select Company Page/Select a Company and change company works as expected'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
-
