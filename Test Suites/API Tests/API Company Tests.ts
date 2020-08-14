@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PC API Tests/PC API Company Tests</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>900f8706-6bdd-43f4-8313-e801d46d5ae9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PC Browser Tests/PC Tests/Web Login Tests/Invalid username and password should return login error message</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
