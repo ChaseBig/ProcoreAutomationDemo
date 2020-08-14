@@ -25,13 +25,3 @@ WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  STF Construction/a_
 
 WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  STF Construction/span_On-Boarding Account'))
 
-WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  On-Boarding Account/div_Company ToolsPortfolio'))
-
-WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Portfolio'))
-
-WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  On-Boarding Account/div_On-Boarding AccountSelect a Project'))
-
-WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  On-Boarding Account/a_Change'))
-
-WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  On-Boarding Account/span_STF Construction'))
-

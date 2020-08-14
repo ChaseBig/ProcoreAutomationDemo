@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>all companies works</name>
+   <name>getAllCompanies</name>
    <tag></tag>
    <elementGuidId>ff706d51-3444-4e38-92a9-64c40dad35a0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

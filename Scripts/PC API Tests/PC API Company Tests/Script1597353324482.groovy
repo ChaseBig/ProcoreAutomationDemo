@@ -17,9 +17,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WS.sendRequestAndVerify(findTestObject('Postman/companyPeople'))
 
-WS.sendRequestAndVerify(findTestObject('Postman/all companies works'))
+WS.sendRequestAndVerify(findTestObject('Postman/getAllCompanies'))
 
 WS.sendRequestAndVerify(findTestObject('Postman/get company programs'))
 
-WS.sendRequestAndVerify(findTestObject('Postman/company users'))
+WS.sendRequestAndVerify(findTestObject('Postman/GETCompanyUsers'))
 
