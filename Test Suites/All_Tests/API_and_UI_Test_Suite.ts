@@ -24,12 +24,6 @@
       <testCaseId>Test Cases/PC Browser Tests/PC Tests/Web Login Tests/User should login successfully using encrypted password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>ee1ea112-90af-41db-8a35-7bdc70957e0a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PC Browser Tests/PC Tests/Logged-in Web Tests/Company Selector Page Works</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a6c4f391-766a-4a72-8ff2-dd204b956591</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
