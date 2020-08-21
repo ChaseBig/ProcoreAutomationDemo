@@ -6,12 +6,16 @@
    <elementGuidId>a3548dfc-ac61-4b77-97c8-600b6e235c7f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div._menu_menu__item__DZ49s_QHByb._menu_menu__item--hover__1mB08_QHByb > div.MenuItemLayout-eLlDnx.kzrlIl > span</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='On-Boarding Account'])[3]/following::span[1]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div._menu_menu__item__DZ49s_QHByb._menu_menu__item--hover__1mB08_QHByb > div.MenuItemLayout-eLlDnx.kzrlIl > span</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'STF Construction' or . = 'STF Construction')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;home-scope&quot;]/div[@class=&quot;_portal_portal__BR8hE_QHByb&quot;]/div[@class=&quot;_modal_modal__3gN0s_QHByb _modal_modal--placement-center__3W2Ml_QHByb _modal_modal--open__3ggmm_QHByb&quot;]/div[@class=&quot;_card_card__2ERIw_QHByb _card_card--level-20__3pHru_QHByb _modal_modal__container__3bu8P_QHByb&quot;]/div[@class=&quot;_modal_modal__content__3abhE_QHByb&quot;]/div[@class=&quot;_modal_modal__body__L1RKW_QHByb&quot;]/div[@class=&quot;_card_card__2ERIw_QHByb _card_card--level-20__3pHru_QHByb StyledCard-kLgnVx kPzoVd&quot;]/div[@class=&quot;_menu_menu-wrapper__7zIPF_QHByb&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb _menu_menu__1bR2q_QHByb StyledMenu-sNtrZ ikVTLv&quot;]/div[@class=&quot;_menu_menu__options__1iGMD_QHByb _menu_menu__options--scrollable__1sd3y_QHByb&quot;]/div[@class=&quot;_menu_menu__item__DZ49s_QHByb _menu_menu__item--hover__1mB08_QHByb&quot;]/div[@class=&quot;MenuItemLayout-eLlDnx kzrlIl&quot;]/span[1]</value>
+      <value>/html[1]/body[@class=&quot;home-scope&quot;]/div[11]/div[@class=&quot;_modal_modal__3gN0s_QHByb _modal_modal--placement-center__3W2Ml_QHByb _modal_modal--open__3ggmm_QHByb&quot;]/div[@class=&quot;_card_card__2ERIw_QHByb _card_card--level-20__3pHru_QHByb _modal_modal__container__3bu8P_QHByb&quot;]/div[@class=&quot;_modal_modal__content__3abhE_QHByb&quot;]/div[@class=&quot;_modal_modal__body__L1RKW_QHByb&quot;]/div[@class=&quot;_card_card__2ERIw_QHByb _card_card--level-20__3pHru_QHByb StyledCard-kLgnVx kPzoVd&quot;]/div[@class=&quot;_menu_menu-wrapper__7zIPF_QHByb&quot;]/div[@class=&quot;_flex_flex-align-items-flex-start__2gWD7_QHByb _flex_flex-justify-content-flex-start__VAZ4J_QHByb _flex_flex-column__1RR_i_QHByb _menu_menu__1bR2q_QHByb StyledMenu-sNtrZ ikVTLv&quot;]/div[@class=&quot;_menu_menu__options__1iGMD_QHByb _menu_menu__options--scrollable__1sd3y_QHByb&quot;]/div[@class=&quot;_menu_menu__item__DZ49s_QHByb _menu_menu__item--hover__1mB08_QHByb&quot;]/div[@class=&quot;MenuItemLayout-eLlDnx kzrlIl&quot;]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

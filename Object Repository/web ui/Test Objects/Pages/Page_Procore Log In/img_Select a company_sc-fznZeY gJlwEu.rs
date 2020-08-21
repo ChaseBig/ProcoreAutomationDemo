@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='wrapper']/div/div/img</value>
+         <value>//img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

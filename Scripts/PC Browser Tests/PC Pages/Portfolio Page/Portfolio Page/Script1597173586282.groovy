@@ -18,8 +18,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('web ui/Full Test/Page_Portfolio  STF Construction/div_Projects'))
 
-WebUI.click(findTestObject('Object Repository/web ui/Test Objects/Pages/Portfolio Page/Page_Procore Log In/span_STF Construction'))
-
 WebUI.click(findTestObject('Object Repository/web ui/Test Objects/Pages/Portfolio Page/Page_Portfolio  STF Construction/a_STF Construction_LogoContainer-iPQNsa UuURl'))
 
 WebUI.setText(findTestObject('Object Repository/web ui/Test Objects/Pages/Portfolio Page/Page_Portfolio  STF Construction/input_CSV_search_search-input__10W13'), 

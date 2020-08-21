@@ -15,11 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Web Login/Login page is loaded successfully'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Web Login/Login with valid username and encrypted password'), 
     [('username') : GlobalVariable.username, ('encryptedPassword') : GlobalVariable.encrypted_password], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('PC Browser Tests/PC Pages/Select Company Page/The Company Selector Page loaded successfully'), 
-    [:], FailureHandling.STOP_ON_FAILURE)
 

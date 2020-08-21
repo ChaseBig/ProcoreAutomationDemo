@@ -6,12 +6,16 @@
    <elementGuidId>e900e404-ffba-4651-b034-88a914bebffb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#react_company_select</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='react_company_select']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#react_company_select</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'react_company_select' and (text() = 'Change' or . = 'Change')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

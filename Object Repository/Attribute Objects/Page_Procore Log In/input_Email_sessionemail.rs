@@ -6,12 +6,16 @@
    <elementGuidId>9d034ab5-262b-4b6e-88cc-7491e55f1f46</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#session_email</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='session_email']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#session_email</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'email' and @name = 'session[email]' and @id = 'session_email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

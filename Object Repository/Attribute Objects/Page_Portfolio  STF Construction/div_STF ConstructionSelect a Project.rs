@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_sessionpassword</name>
+   <name>div_STF ConstructionSelect a Project</name>
    <tag></tag>
-   <elementGuidId>91612335-5b7c-406a-8a15-bf28d1f20dcf</elementGuidId>
+   <elementGuidId>7bbdb5da-69b7-4406-b5a7-92564f458247</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#session_password</value>
+         <value>div.picker_picker__WH5XP</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='session_password']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'password' and @name = 'session[password]' and @id = 'session_password']</value>
+         <value>//div[@id='mount-nav-bar']/header/div/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,48 +21,55 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>picker_picker__WH5XP</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-header</name>
+      <type>Main</type>
+      <value>picker-company-project</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>session[password]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>session_password</value>
+      <value>STF ConstructionSelect a Project</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;session_password&quot;)</value>
+      <value>id(&quot;mount-nav-bar&quot;)/header[@class=&quot;Header-hwLOgt gcDzgW&quot;]/div[@class=&quot;HeaderContainer-fyFwWm khbydO&quot;]/div[@class=&quot;HeaderContent-cippqY HeaderContentLeft-cUjkkX buppCH&quot;]/div[@class=&quot;picker_picker__WH5XP&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='session_password']</value>
+      <value>//div[@id='mount-nav-bar']/header/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
+      <value>//div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

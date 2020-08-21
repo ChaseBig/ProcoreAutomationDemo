@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Change</name>
+   <name>a_STF Construction_LogoContainer-iPQNsa UuURl</name>
    <tag></tag>
-   <elementGuidId>8f15c5e2-9aa9-4d15-b951-01fa82ef65ea</elementGuidId>
+   <elementGuidId>5a6d2237-493e-4af2-9174-2e935e217d83</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react_company_select</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[@id='react_company_select']</value>
+         <value>//div[@id='mount-nav-bar']/header/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,80 +20,66 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-header</name>
+      <type>Main</type>
+      <value>logo</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>react_company_select</value>
+      <value>/10428/company/home</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>AnchorButton-eCnZcJ jkpHCC</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Change</value>
+      <value>LogoContainer-iPQNsa UuURl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_company_select&quot;)</value>
+      <value>id(&quot;mount-nav-bar&quot;)/header[@class=&quot;Header-hwLOgt gcDzgW&quot;]/div[@class=&quot;HeaderContainer-fyFwWm khbydO&quot;]/div[@class=&quot;HeaderContent-cippqY HeaderContentLeft-cUjkkX buppCH&quot;]/a[@class=&quot;LogoContainer-iPQNsa UuURl&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='react_company_select']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Change')]</value>
+      <value>//div[@id='mount-nav-bar']/header/div/div/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='STF Construction'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STF Construction'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Company'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Project'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Change']/parent::*</value>
+      <value>//a[contains(@href, '/10428/company/home')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile Settings: User Dictionary Selector'])[1]/preceding::a[1]</value>
+      <value>//a</value>
    </webElementXpaths>
 </WebElementEntity>

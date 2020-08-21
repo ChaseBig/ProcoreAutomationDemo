@@ -6,15 +6,15 @@
    <elementGuidId>0dc3026d-d96f-44d7-a9c9-90984517eef6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Adriana Mobile Test Company'])[1]/following::span[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div._menu_menu__item__DZ49s_QHByb._menu_menu__item--hover__1mB08_QHByb > div.MenuItemLayout-eLlDnx.kzrlIl > span</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Adriana Mobile Test Company'])[1]/following::span[1]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
